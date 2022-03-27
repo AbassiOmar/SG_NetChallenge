@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SG_Net_Challenge.Domain.InterfaceService
 {
-    public interface IValidationMarketDataService
+    public interface IValidationMarketDataValidator
     {
         Task<ResponseValidationService> ValidateDataMarket(MarketDataContributionRequest request);
 

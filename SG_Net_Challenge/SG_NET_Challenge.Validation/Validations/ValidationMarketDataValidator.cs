@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SG_NET_Challenge.Validation.Validations
 {
-    public class ValidationMarketDataService : IValidationMarketDataService
+    public class ValidationMarketDataValidator : IValidationMarketDataValidator
     {
         public async Task<ResponseValidationService> ValidateDataMarket(MarketDataContributionRequest request)
         {

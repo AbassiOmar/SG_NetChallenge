@@ -13,9 +13,9 @@ namespace SG_Net_Challenge.Service.Services
     public class MarketDataContributionService : IMarketDataContributionService
     {
         private readonly IMarketDataContributionCommand marketDataContributionCommand;
-        private readonly IValidationMarketDataService validationMarketDataService;
+        private readonly IValidationMarketDataValidator validationMarketDataService;
         public MarketDataContributionService(IMarketDataContributionCommand marketDataContributionCommand,
-            IValidationMarketDataService validationMarketDataService)
+            IValidationMarketDataValidator validationMarketDataService)
         {
             this.marketDataContributionCommand = marketDataContributionCommand;
             this.validationMarketDataService = validationMarketDataService;

@@ -20,7 +20,7 @@ namespace SG_Net_Challenge.Extensions
            
             services.AddTransient<IMarketDataContributionService, MarketDataContributionService>();
             services.AddTransient<IMarketDataContributionService, MarketDataContributionService>();
-            services.AddTransient<IValidationMarketDataService, ValidationMarketDataService>();
+            services.AddTransient<IValidationMarketDataValidator, ValidationMarketDataValidator>();
             services.AddTransient<IMarketDataContributionCommand, MarketDataContributionCommand>();
 
             
