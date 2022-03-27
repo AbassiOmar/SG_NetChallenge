@@ -13,5 +13,8 @@ authenticate user with this credential username : admin ;password : 0000
 
 ![image](https://user-images.githubusercontent.com/16887977/160301380-935d6526-268b-4537-98a8-b394f7f59df4.png)
 
-# project structure
+# project structure : 
+
+==> Apply CQRS and DDD models
+
 ![sg_net_challenge drawio](https://user-images.githubusercontent.com/16887977/160304211-f9617460-b423-4eb7-9a8c-67990a20f8d8.png)
