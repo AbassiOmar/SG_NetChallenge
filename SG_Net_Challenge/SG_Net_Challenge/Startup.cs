@@ -14,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Prometheus;
 using SG_Net_Challenge.Extensions;
 
 namespace SG_Net_Challenge
@@ -30,6 +31,7 @@ namespace SG_Net_Challenge
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+       
             services.AddControllers();
             services.ConfigureServices(Configuration);
             services.AddSwaggerGen(options =>
@@ -104,7 +106,7 @@ namespace SG_Net_Challenge
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseMetricServer();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
