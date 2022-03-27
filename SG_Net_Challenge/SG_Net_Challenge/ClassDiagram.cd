@@ -1,2 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SG_Net_Challenge.Controllers.MarketDatacontributionController">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAIAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\MarketDatacontributionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SG_Net_Challenge.Command.Commands.MarketDataContributionCommand">
+    <Position X="6.5" Y="1.5" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SG_Net_Challenge.Query.Queries.MarketDataContributionQuery">
+    <Position X="6.75" Y="4" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SG_Net_Challenge.Service.Services.MarketDataContributionService">
+    <Position X="3.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SG_NET_Challenge.Validation.Validations.ValidationMarketDataValidator">
+    <Position X="3.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SG_Net_Challenge.Domain.InterfaceCommand.IMarketDataContributionCommand">
+    <Position X="6.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="SG_Net_Challenge.Domain.InterfaceService.IMarketDataContributionService">
+    <Position X="3.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="SG_Net_Challenge.Domain.InterfaceService.IValidationMarketDataValidator">
+    <Position X="3.25" Y="4" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="SG_Net_Challenge.Domain.InterfacesQueries.IMarketDataContributionQuery">
+    <Position X="6.5" Y="3.25" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
