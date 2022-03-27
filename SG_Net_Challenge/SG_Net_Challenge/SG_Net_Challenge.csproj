@@ -25,6 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SG_Net_Challenge.Command\SG_Net_Challenge.Command.csproj" />
     <ProjectReference Include="..\SG_Net_Challenge.Domain\SG_Net_Challenge.Domain.csproj" />
+    <ProjectReference Include="..\SG_Net_Challenge.Query\SG_Net_Challenge.Query.csproj" />
     <ProjectReference Include="..\SG_Net_Challenge.Service\SG_Net_Challenge.Service.csproj" />
     <ProjectReference Include="..\SG_NET_Challenge.Validation\SG_NET_Challenge.Validation.csproj" />
   </ItemGroup>

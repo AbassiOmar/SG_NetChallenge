@@ -29,5 +29,14 @@ namespace SG_Net_Challenge.Controllers
             var result = await this.marketDatacontributionService.ProcessMarketDataContribution(requestModel);
             return Ok(result);
         }
+
+        [HttpGet()]
+        [ProducesResponseType(typeof(MarketDataContributionResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public async Task<ActionResult> ProcessMarketDataContribution([FromQuery] string identifier)
+        {
+            var result = await this.marketDatacontributionService.GetMarketDataContribution(identifier);
+            return Ok(result);
+        }
     }
 }

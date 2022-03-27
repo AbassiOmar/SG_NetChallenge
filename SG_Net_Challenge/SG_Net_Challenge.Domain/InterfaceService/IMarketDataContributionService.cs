@@ -10,5 +10,6 @@ namespace SG_Net_Challenge.Domain.InterfaceService
     public interface IMarketDataContributionService
     {
         Task<MarketDataContributionResponse> ProcessMarketDataContribution(MarketDataContributionRequest request);
+        Task<MarketDataContributionResponse> GetMarketDataContribution(string identifier);
     }
 }
